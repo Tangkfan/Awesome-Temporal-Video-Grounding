@@ -1,16 +1,20 @@
-# Temporal Sentence Grounding
+# Awesome-Temporal-Video-Grounding
 
-List of Temporal Sentence Grounding papers.
+List of Temporal Video Grounding (TVG) papers.
 
 The task is also usually referred to as:
 - Temporal Sentence Grounding (TSG)
 - Video Moment Retrieval (VMR)
 - Temporal Activity Localization via Language Query (TALL)
 
+TVG was initially introduced in 2017 as a novel task designed to localize specific moments in videos that are semantically relevant to given natural language queries.
+Recent studies have started investigating techniques to augment the grounding capacity of large language models (LLMs), enabling them to better comprehend and temporally align visual information with natural language inputs.
+
 # Content
 - [1 Survey](#1-Survey)
 - [2 Datasets](#2-Datasets)
-- [3 Paper](#3-Paper)
+- [3 LLM for TVG](#3-llm-for-tvg)
+- [4 Traditional TVG](#4-traditional-tvg)
     - [2017](#2017)-[2018](#2018)-[2019](#2019)
     - [2020](#2020)-[2021](#2021)-[2022](#2022)
     - [2023](#2023)-[2024](#2024)
@@ -20,12 +24,54 @@ The task is also usually referred to as:
 - [ACM Comput. Surv.'23] [A Survey on Video Moment Localization](https://dl.acm.org/doi/abs/10.1145/3556537). 哈工大 聂礼强团队
 
 # 2 Datasets
-- Charades-STA: [VGG](https://github.com/TencentARC/UMT), [C3D](https://rochester.app.box.com/s/swu6rlqcdlebvwml8dyescmi7ra0owc5), [I3D](https://app.box.com/s/h0sxa5klco6qve5ahnz50ly2nksmuedw/folder/138545516584), [CLIP+SF](https://mailustceducn-my.sharepoint.com/personal/liuzhihang_mail_ustc_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fliuzhihang%5Fmail%5Fustc%5Fedu%5Fcn%2FDocuments%2FOpenSource%2FMESM%2Fdata&ga=1)
-- TACoS: [C3D](https://app.box.com/s/h0sxa5klco6qve5ahnz50ly2nksmuedw/folder/138544435150), [I3D](https://rochester.app.box.com/s/swu6rlqcdlebvwml8dyescmi7ra0owc5)
-- ActivityNet Captions: [C3D](http://activity-net.org/challenges/2016/download.html)
-- QVHighlights: [CLIP+SF](https://github.com/jayleicn/moment_detr)
+- [Charades-STA](https://prior.allenai.org/projects/charades): [VGG](https://github.com/TencentARC/UMT), [C3D](https://rochester.app.box.com/s/swu6rlqcdlebvwml8dyescmi7ra0owc5), [I3D](https://app.box.com/s/h0sxa5klco6qve5ahnz50ly2nksmuedw/folder/138545516584), [CLIP+SF](https://mailustceducn-my.sharepoint.com/personal/liuzhihang_mail_ustc_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fliuzhihang%5Fmail%5Fustc%5Fedu%5Fcn%2FDocuments%2FOpenSource%2FMESM%2Fdata&ga=1)
+- [TACoS](https://www.coli.uni-saarland.de/projects/smile/page.php?id=tacos): [C3D](https://app.box.com/s/h0sxa5klco6qve5ahnz50ly2nksmuedw/folder/138544435150), [I3D](https://rochester.app.box.com/s/swu6rlqcdlebvwml8dyescmi7ra0owc5)
+- [ActivityNet Captions](http://activity-net.org/download.html): [C3D](http://activity-net.org/challenges/2016/download.html)
+- [QVHighlights](https://github.com/jayleicn/moment_detr/blob/main/data/README.md): [CLIP+SF](https://github.com/jayleicn/moment_detr)
 
-# 3 Paper
+
+# 3 LLM for TVG
+## 2023
+- [ACL] [Generating Structured Pseudo Labels for Noise-resistant Zero-shot Video Sentence Localization](https://aclanthology.org/2023.acl-long.794/). [[code](https://github.com/minghangz/SPL)]
+- [ICCVW] [LLaViLo: Boosting Video Moment Retrieval via Adapter-Based Multimodal Modeling](https://openaccess.thecvf.com/content/ICCV2023W/CLVL/html/Ma_LLaViLo_Boosting_Video_Moment_Retrieval_via_Adapter-Based_Multimodal_Modeling_ICCVW_2023_paper.html). 
+- [NeurIPS] [Self-Chained Image-Language Model for Video Localization and Question Answering](https://arxiv.org/abs/2305.06988). [[code](https://github.com/Yui010206/SeViLA)]
+- [arXiv] [Grounding-Prompter: Prompting LLM with Multimodal Information for Temporal Sentence Grounding in Long Videos](https://arxiv.org/abs/2312.17117). 
+- [arXiv] [LLM4VG: Large Language Models Evaluation for Video Grounding](https://arxiv.org/abs/2312.14206)
+
+
+## 2024
+- [ACL] [GroundingGPT: Language Enhanced Multi-modal Grounding Model](https://arxiv.org/abs/2401.06071). [[code](https://lzw-lzw.github.io/GroundingGPT.github.io/)]
+- [CVPR] [VTimeLLM: Empower LLM to grasp video moments](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_VTimeLLM_Empower_LLM_to_Grasp_Video_Moments_CVPR_2024_paper.html). [[code](https://github.com/huangb23/VTimeLLM)]
+- [CVPR] [TimeChat: A time-sensitive multimodal large language model for long video understanding](https://openaccess.thecvf.com/content/CVPR2024/html/Ren_TimeChat_A_Time-sensitive_Multimodal_Large_Language_Model_for_Long_Video_CVPR_2024_paper.html). [[code](https://github.com/RenShuhuai-Andy/TimeChat)]
+- [ECCV] [Training-free video temporal grounding using large-scale pre-trained models](https://link.springer.com/chapter/10.1007/978-3-031-73007-8_2). [[code](https://github.com/minghangz/TFVTG)]
+- [EMNLP] [Efficient Temporal Extrapolation of Multimodal Large Language Models with Temporal Grounding Bridge](https://arxiv.org/abs/2402.16050). [[code](https://github.com/bigai-nlco/VideoTGB)]
+- [NeurIPS] [SlowFocus: Enhancing fine-grained temporal understanding in video LLM](https://openreview.net/forum?id=FOkKndty5B). [[code](https://github.com/fudan-zvg/SlowFocus)]
+- [arXiv] [The Surprising Effectiveness of Multimodal Large  Language Models for Video Moment Retrieval](https://arxiv.org/abs/2406.18113). [[code](https://github.com/sudo-Boris/mr-Blip)]
+- [arXiv] [LLaVA-MR: Large Language-and-Vision Assistant for Video Moment Retrieval](https://arxiv.org/abs/2411.14505).
+- [arXiv] [HawkEye: Training Video-Text LLMs for Grounding Text in Videos](https://arxiv.org/abs/2403.10228). [[code](https://github.com/yellow-binary-tree/HawkEye)]
+- [arXiv] [Video LLMs for temporal reasoning in long videos](https://arxiv.org/abs/2412.02930)
+
+
+## 2025
+- [TMM] [ETC: Temporal boundary expand then clarify for weakly supervised video grounding with multimodal large language model](https://ieeexplore.ieee.org/abstract/document/10874219/). 
+- [AAAI] [VTG-LLM: Integrating timestamp knowledge into video LLMs for enhanced video temporal grounding](https://ojs.aaai.org/index.php/AAAI/article/view/32341). [[code](https://github.com/gyxxyg/VTG-LLM)]
+- [AAAI] [Zero-shot video moment retrieval via off-the-shelf multimodal large language models](https://arxiv.org/abs/2501.07972). 
+- [ICLR] [TRACE: Temporal grounding video LLM via causal event modeling](https://arxiv.org/abs/2410.05643). [[code](https://github.com/gyxxyg/TRACE)]
+- [ICLR] [TimeSuite: Improving MLLMs for long video understanding via grounded tuning](https://arxiv.org/abs/2410.19702). [[code](https://github.com/OpenGVLab/TimeSuite)]
+- [CVPR] [SVLTA: Benchmarking vision-language temporal alignment via synthetic video situation](https://arxiv.org/abs/2504.05925). [[code](https://svlta-ai.github.io/SVLTA/)]
+- [CVPR] [ReVisionLLM: Recursive vision-language model for temporal grounding in hour-long videos](https://arxiv.org/abs/2411.14901). [[code](https://github.com/Tanveer81/ReVisionLLM)]
+- [CVPR] [Number it: Temporal grounding videos like flipping manga](https://arxiv.org/abs/2411.10332). [[code](https://github.com/yongliang-wu/NumPro)]
+- [COLING] [Mitigating the discrepancy between video and text temporal sequences: A time-perception enhanced video grounding method for LLM](https://aclanthology.org/2025.coling-main.655/).
+- [arXiv] [Measure Twice, Cut Once: Grasping Video Structures and Event Semantics with LLMs for Video Temporal Localization](https://arxiv.org/abs/2503.09027). [[code](https://github.com/pangzss/MeCo)]
+- [arXiv] [TimeRefine: Temporal grounding with time refining video LLM](https://arxiv.org/abs/2412.09601). [[code](https://github.com/SJTUwxz/TimeRefine)]
+- [arXiv] [TimeZero: Temporal video grounding with reasoning-guided LVLM](https://arxiv.org/abs/2503.13377). [[code](https://github.com/www-Ye/TimeZero)]
+- [arXiv] [MomentSeeker: A comprehensive benchmark and a strong baseline for moment retrieval within long videos](https://arxiv.org/abs/2502.12558).
+- [arXiv] [VideoExpert: Augmented LLM for temporal-sensitive video understanding](https://arxiv.org/abs/2504.07519).
+
+
+
+
+# 4 Traditional TVG
 ## 2017
 首次提出TSG任务。
 ### Fully Supervised
@@ -187,3 +233,6 @@ The task is also usually referred to as:
 **Reconstruction-based**
 - [AAAI'24] [Gaussian Mixture Proposals with Pull-Push Learning Scheme to Capture Diverse Events for Weakly Supervised Temporal Video Grounding](https://ojs.aaai.org/index.php/AAAI/article/view/28059). 首尔大学 Jin Young Choi团队 [[code](https://github.com/sunoh-kim/pps)]
 - [PR'24] [Triadic temporal-semantic alignment for weakly-supervised video moment retrieval](https://www.sciencedirect.com/science/article/pii/S0031320324005703). 山东大学 周风余团队
+
+
+
