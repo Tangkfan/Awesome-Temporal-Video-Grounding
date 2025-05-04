@@ -13,13 +13,11 @@ Recent studies have started investigating techniques to augment the grounding ca
 # Content
 - [1 Survey](#1-Survey)
 - [2 Datasets](#2-Datasets)
-<<<<<<< HEAD
 - [3 LLM for TVG](#3-llm-for-tvg)
 - [4 Traditional TVG](#4-traditional-tvg)
     - [2017](#2017)-[2018](#2018)-[2019](#2019)
     - [2020](#2020)-[2021](#2021)-[2022](#2022)
-    - [2023](#2023)-[2024](#2024)
-=======
+    - [2023](#2023)-[2024](#2024)-[2025](#2025)
 - [3 Paper](#3-Paper)
     - [2017](#2017): [Fully Supervised](#fully-supervised-2017)
     - [2018](#2018): [Fully Supervised](#fully-supervised-2018), [Weakly Supervised](#weakly-supervised-2018)
@@ -29,7 +27,8 @@ Recent studies have started investigating techniques to augment the grounding ca
     - [2022](#2022): [Fully Supervised](#fully-supervised-2022), [Weakly Supervised](#weakly-supervised-2022), [Point-supervised/Glance](#point-supervised/glance-2022)
     - [2023](#2023): [Fully Supervised](#fully-supervised-2023), [Weakly Supervised](#weakly-supervised-2023), [Point-supervised/Glance](#point-supervised/glance-2023), [Zero-Shot](#zero-shot-2023)
     - [2024](#2024): [Fully Supervised](#fully-supervised-2024), [Weakly Supervised](#weakly-supervised-2024)
->>>>>>> cc1ecc15feb92cde25bbc82de930a72310bc8509
+    - [2025](#2025)
+
 
 # 1 Survey
 - [TPAMI'23] [Temporal Sentence Grounding in Videos: A Survey and Future Directions](https://ieeexplore.ieee.org/abstract/document/10075491). NTU 孙爱欣团队
