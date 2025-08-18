@@ -11,23 +11,41 @@ TVG was initially introduced in 2017 as a novel task designed to localize specif
 Recent studies have started investigating techniques to augment the grounding capacity of large language models (LLMs), enabling them to better comprehend and temporally align visual information with natural language inputs.
 
 # Content
-- [1 Survey](#1-Survey)
-- [2 Datasets](#2-Datasets)
+- [Awesome-Temporal-Video-Grounding](#awesome-temporal-video-grounding)
+- [Content](#content)
+- [1 Survey](#1-survey)
+- [2 Datasets](#2-datasets)
 - [3 LLM for TVG](#3-llm-for-tvg)
+  - [2023](#2023)
+  - [2024](#2024)
+  - [2025](#2025)
 - [4 Traditional TVG](#4-traditional-tvg)
-    - [2017](#2017)-[2018](#2018)-[2019](#2019)
-    - [2020](#2020)-[2021](#2021)-[2022](#2022)
-    - [2023](#2023)-[2024](#2024)-[2025](#2025)
-- [3 Paper](#3-Paper)
-    - [2017](#2017): [Fully Supervised](#fully-supervised-2017)
-    - [2018](#2018): [Fully Supervised](#fully-supervised-2018), [Weakly Supervised](#weakly-supervised-2018)
-    - [2019](#2019): [Fully Supervised](#fully-supervised-2019), [Weakly Supervised](#weakly-supervised-2019)
-    - [2020](#2020): [Fully Supervised](#fully-supervised-2020), [Weakly Supervised](#weakly-supervised-2020)
-    - [2021](#2021): [Fully Supervised](#fully-supervised-2021), [Weakly Supervised](#weakly-supervised-2021), [Zero-Shot](#zero-shot-2021)
-    - [2022](#2022): [Fully Supervised](#fully-supervised-2022), [Weakly Supervised](#weakly-supervised-2022), [Point-supervised/Glance](#point-supervised/glance-2022)
-    - [2023](#2023): [Fully Supervised](#fully-supervised-2023), [Weakly Supervised](#weakly-supervised-2023), [Point-supervised/Glance](#point-supervised/glance-2023), [Zero-Shot](#zero-shot-2023)
-    - [2024](#2024): [Fully Supervised](#fully-supervised-2024), [Weakly Supervised](#weakly-supervised-2024)
-    - [2025](#2025)
+  - [2017](#2017)
+    - [Fully Supervised](#fully-supervised)
+  - [2018](#2018)
+    - [Fully Supervised](#fully-supervised-1)
+    - [Weakly Supervised](#weakly-supervised)
+  - [2019](#2019)
+    - [Fully Supervised](#fully-supervised-2)
+    - [Weakly Supervised](#weakly-supervised-1)
+  - [2020](#2020)
+    - [Fully Supervised](#fully-supervised-3)
+    - [Weakly Supervised](#weakly-supervised-2)
+  - [2021](#2021)
+    - [Fully Supervised](#fully-supervised-4)
+    - [Zero-Shot](#zero-shot)
+  - [2022](#2022)
+    - [Fully Supervised](#fully-supervised-5)
+    - [Weakly Supervised](#weakly-supervised-3)
+    - [Point-supervised/Glance](#point-supervisedglance)
+  - [2023](#2023-1)
+    - [Fully Supervised](#fully-supervised-6)
+    - [Weakly Supervised](#weakly-supervised-4)
+    - [Point-supervised/Glance](#point-supervisedglance-1)
+    - [Zero-Shot](#zero-shot-1)
+  - [2024](#2024-1)
+    - [Fully Supervised](#fully-supervised-7)
+    - [Weakly Supervised](#weakly-supervised-5)
 
 
 # 1 Survey
@@ -76,8 +94,12 @@ Recent studies have started investigating techniques to augment the grounding ca
 - [arXiv] [Measure Twice, Cut Once: Grasping Video Structures and Event Semantics with LLMs for Video Temporal Localization](https://arxiv.org/abs/2503.09027). [[code](https://github.com/pangzss/MeCo)]
 - [arXiv] [TimeRefine: Temporal grounding with time refining video LLM](https://arxiv.org/abs/2412.09601). [[code](https://github.com/SJTUwxz/TimeRefine)]
 - [arXiv] [TimeZero: Temporal video grounding with reasoning-guided LVLM](https://arxiv.org/abs/2503.13377). [[code](https://github.com/www-Ye/TimeZero)]
+- [arXiv] [Time-R1: Post-training large vision language model for temporal video grounding](https://arxiv.org/abs/2503.13377). [[code](https://github.com/xiaomi-research/time-r1)]
 - [arXiv] [MomentSeeker: A comprehensive benchmark and a strong baseline for moment retrieval within long videos](https://arxiv.org/abs/2502.12558).
 - [arXiv] [VideoExpert: Augmented LLM for temporal-sensitive video understanding](https://arxiv.org/abs/2504.07519).
+- [arXiv] [Universal Video Temporal Grounding with Generative Multi-modal Large Language Models](https://arxiv.org/abs/2506.18883).
+- [arXiv] [VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning](https://arxiv.org/abs/2503.13444). [[code](https://github.com/yeliudev/VideoMind?tab=readme-ov-file)]
+- [arXiv] [Invert4TVG: A temporal video grounding framework with inversion tasks for enhanced action understanding](https://arxiv.org/abs/2508.07388).
 
 
 
@@ -244,10 +266,5 @@ Recent studies have started investigating techniques to augment the grounding ca
 - [AAAI'24] [Gaussian Mixture Proposals with Pull-Push Learning Scheme to Capture Diverse Events for Weakly Supervised Temporal Video Grounding](https://ojs.aaai.org/index.php/AAAI/article/view/28059). 首尔大学 Jin Young Choi团队 [[code](https://github.com/sunoh-kim/pps)]
 - [AAAI'24] [Omnipotent Distillation with LLMs for Weakly-Supervised Natural Language Video Localization: When Divergence Meets Consistency](https://ojs.aaai.org/index.php/AAAI/article/view/27832). NTU Alex C. Kot团队
 - [PR'24] [Triadic temporal-semantic alignment for weakly-supervised video moment retrieval](https://www.sciencedirect.com/science/article/pii/S0031320324005703). 山东大学 周风余团队
-<<<<<<< HEAD
-
-
-
-=======
 - [ACL'24] [Exploiting Intrinsic Multilateral Logical Rules for Weakly Supervised Natural Language Video Localization](https://aclanthology.org/2024.acl-long.247/). 西电 邓成团队
->>>>>>> cc1ecc15feb92cde25bbc82de930a72310bc8509
+
