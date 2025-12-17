@@ -46,6 +46,10 @@ Recent studies have started investigating techniques to augment the grounding ca
   - [2024](#2024-1)
     - [Fully Supervised](#fully-supervised-7)
     - [Weakly Supervised](#weakly-supervised-5)
+  - [2025](#2025-1)
+    - [Fully Supervised](#fully-supervised-8)
+    - [Weakly Supervised](#weakly-supervised-6)
+    - [Point-Supervised/Glance](#point-supervisedglance-2)
 
 
 # 1 Survey
@@ -90,16 +94,22 @@ Recent studies have started investigating techniques to augment the grounding ca
 - [CVPR] [SVLTA: Benchmarking vision-language temporal alignment via synthetic video situation](https://arxiv.org/abs/2504.05925). [[code](https://svlta-ai.github.io/SVLTA/)]
 - [CVPR] [ReVisionLLM: Recursive vision-language model for temporal grounding in hour-long videos](https://arxiv.org/abs/2411.14901). [[code](https://github.com/Tanveer81/ReVisionLLM)]
 - [CVPR] [Number it: Temporal grounding videos like flipping manga](https://arxiv.org/abs/2411.10332). [[code](https://github.com/yongliang-wu/NumPro)]
+- [CVPR] [On the Consistency of Video Large Language Models in Temporal Comprehension](https://openaccess.thecvf.com/content/CVPR2025/html/Jung_On_the_Consistency_of_Video_Large_Language_Models_in_Temporal_CVPR_2025_paper.html). [[code](https://github.com/minjoong507/Consistency-of-Video-LLM)]
 - [COLING] [Mitigating the discrepancy between video and text temporal sequences: A time-perception enhanced video grounding method for LLM](https://aclanthology.org/2025.coling-main.655/).
+- [TIP'25] [Caption assisted multimodal large language model for video moment retrieval](https://ieeexplore.ieee.org/abstract/document/11206011).[[code](https://github.com/tjhd1475/CALCE)]
+- [ICCV'25] [Enrich and Detect: Video Temporal Grounding  with Multimodal LLMs](https://openaccess.thecvf.com/content/ICCV2025/html/Pramanick_Enrich_and_Detect_Video_Temporal_Grounding_with_Multimodal_LLMs_ICCV_2025_paper.html).
+- [NeurIPS'25] [Uncertainty-quantified Rollout Policy Adaptation for Unlabelled Cross-domain Video Temporal Grounding](https://openreview.net/forum?id=RfNiN2rENM) [[code](https://lwpyh.github.io/URPA/)]
+- [NeurIPS'25] [Time-R1: Post-training large vision language model for temporal video grounding](https://arxiv.org/abs/2503.13377). [[code](https://github.com/xiaomi-research/time-r1)]
 - [arXiv] [Measure Twice, Cut Once: Grasping Video Structures and Event Semantics with LLMs for Video Temporal Localization](https://arxiv.org/abs/2503.09027). [[code](https://github.com/pangzss/MeCo)]
 - [arXiv] [TimeRefine: Temporal grounding with time refining video LLM](https://arxiv.org/abs/2412.09601). [[code](https://github.com/SJTUwxz/TimeRefine)]
 - [arXiv] [TimeZero: Temporal video grounding with reasoning-guided LVLM](https://arxiv.org/abs/2503.13377). [[code](https://github.com/www-Ye/TimeZero)]
-- [arXiv] [Time-R1: Post-training large vision language model for temporal video grounding](https://arxiv.org/abs/2503.13377). [[code](https://github.com/xiaomi-research/time-r1)]
 - [arXiv] [MomentSeeker: A comprehensive benchmark and a strong baseline for moment retrieval within long videos](https://arxiv.org/abs/2502.12558).
 - [arXiv] [VideoExpert: Augmented LLM for temporal-sensitive video understanding](https://arxiv.org/abs/2504.07519).
 - [arXiv] [Universal Video Temporal Grounding with Generative Multi-modal Large Language Models](https://arxiv.org/abs/2506.18883).
 - [arXiv] [VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning](https://arxiv.org/abs/2503.13444). [[code](https://github.com/yeliudev/VideoMind?tab=readme-ov-file)]
 - [arXiv] [Invert4TVG: A temporal video grounding framework with inversion tasks for enhanced action understanding](https://arxiv.org/abs/2508.07388).
+- [arXiv] [VideoTG-R1: Boosting Video Temporal Grounding via Curriculum Reinforcement Learning on Reflected Boundary Annotations](https://arxiv.org/abs/2510.23397). [[code](https://github.com/ldong1111/VideoTG-R1)]
+- [arXiv] [TempR1: Improving Temporal Understanding of MLLMs via Temporal-Aware Multi-Task Reinforcement Learning](https://arxiv.org/abs/2512.03963). 
 
 
 
@@ -268,3 +278,22 @@ Recent studies have started investigating techniques to augment the grounding ca
 - [PR'24] [Triadic temporal-semantic alignment for weakly-supervised video moment retrieval](https://www.sciencedirect.com/science/article/pii/S0031320324005703). 山东大学 周风余团队
 - [ACL'24] [Exploiting Intrinsic Multilateral Logical Rules for Weakly Supervised Natural Language Video Localization](https://aclanthology.org/2024.acl-long.247/). 西电 邓成团队
 
+## 2025
+### <h3 id="fully-supervised-2025">Fully Supervised</h3>
+- [AAAI'25] [Diversifying Query: Region-Guided Transformer for Temporal Sentence Grounding](https://ojs.aaai.org/index.php/AAAI/article/view/32766). [[code](https://github.com/TensorsSun/RGTR)]
+- [ICCV'25] [KDA: Knowledge Diffusion Alignment with Enhanced Context  for Video Temporal Grounding](https://openaccess.thecvf.com/content/ICCV2025/html/Ran_KDA_Knowledge_Diffusion_Alignment_with_Enhanced_Context_for_Video_Temporal_ICCV_2025_paper.html).
+- [ICCV'25] [Sim-DETR: Unlock DETR for temporal sentence grounding](https://openaccess.thecvf.com/content/ICCV2025/html/Tang_Sim-DETR_Unlock_DETR_for_Temporal_Sentence_Grounding_ICCV_2025_paper.html).
+- [ICCV'25] [Vid-Group: Temporal Video Grounding Pretraining  from Unlabeled Videos in the Wild](https://openaccess.thecvf.com/content/ICCV2025/html/Bao_Vid-Group_Temporal_Video_Grounding_Pretraining_from_Unlabeled_Videos_in_the_ICCV_2025_paper.html).
+- [MM'25] [Boosting Temporal Sentence Grounding via Causal Inference](https://dl.acm.org/doi/abs/10.1145/3746027.3755624). [[code](https://github.com/Tangkfan/CICR)]
+- [MM'25] [Turing Patterns for Multimedia: Reaction-Diffusion Multi-Modal Fusion for Language-Guided Video Moment Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3758179).
+- [MM'25] [Audio Does Matter: Importance-Aware Multi-Granularity Fusion for Video Moment Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3754982).
+- [NeurIPS'25] [CausalVTG: Towards robust video temporal grounding via causal inference](https://openreview.net/forum?id=oeWgBOowL6).
+- [NeurIPS'25] [SpikingVTG: A Spiking Detection Transformer for Video Temporal Grounding](https://openreview.net/forum?id=SkhF3cuyev).
+
+
+### <h3 id="weakly-supervised-2025">Weakly Supervised</h3>
+- [ICASSP'25] [FAWL: Weakly-supervised video corpus moment retrieval with frame-wise auxiliary alignment and weighted contrastive learning](https://ieeexplore.ieee.org/abstract/document/10887823). [[code](https://github.com/BUAAPY/FAWL)]
+- [NeurIPS'25] [PC-Net: Weakly Supervised Compositional Moment Retrieval via Proposal-Centric Network](https://openreview.net/forum?id=kQAnOaayIo). [[code](https://github.com/mingyao1120/PC-Net)]
+
+### <h3 id="point-supervised-2025">Point-Supervised/Glance</h3>
+- [SIGIR'25] [Gaming for Boundary: Elastic Localization for Frame-Supervised Video Moment Retrieval](https://dl.acm.org/doi/abs/10.1145/3726302.3729984). 
