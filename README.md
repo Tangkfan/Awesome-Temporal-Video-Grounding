@@ -61,6 +61,8 @@ Recent studies have started investigating techniques to augment the grounding ca
 - [TACoS](https://www.coli.uni-saarland.de/projects/smile/page.php?id=tacos): [C3D](https://app.box.com/s/h0sxa5klco6qve5ahnz50ly2nksmuedw/folder/138544435150), [I3D](https://rochester.app.box.com/s/swu6rlqcdlebvwml8dyescmi7ra0owc5)
 - [ActivityNet Captions](http://activity-net.org/download.html): [C3D](http://activity-net.org/challenges/2016/download.html)
 - [QVHighlights](https://github.com/jayleicn/moment_detr/blob/main/data/README.md): [CLIP+SF](https://github.com/jayleicn/moment_detr)
+- [Timelens-Bench](https://huggingface.co/datasets/TencentARC/TimeLens-Bench): Manually refined versions of Charades-STA, ActivityNet Captions and QVHighlights.
+- [TimeLens-100K](https://huggingface.co/datasets/TencentARC/TimeLens-100K): High-quality training dataset.
 
 
 # 3 LLM for TVG
@@ -110,7 +112,7 @@ Recent studies have started investigating techniques to augment the grounding ca
 - [arXiv] [Invert4TVG: A temporal video grounding framework with inversion tasks for enhanced action understanding](https://arxiv.org/abs/2508.07388).
 - [arXiv] [VideoTG-R1: Boosting Video Temporal Grounding via Curriculum Reinforcement Learning on Reflected Boundary Annotations](https://arxiv.org/abs/2510.23397). [[code](https://github.com/ldong1111/VideoTG-R1)]
 - [arXiv] [TempR1: Improving Temporal Understanding of MLLMs via Temporal-Aware Multi-Task Reinforcement Learning](https://arxiv.org/abs/2512.03963). 
-
+- [arXiv] [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2512.14698) [[website](https://timelens-arc-lab.github.io/)] [[code](https://github.com/TencentARC/TimeLens)]
 
 
 
