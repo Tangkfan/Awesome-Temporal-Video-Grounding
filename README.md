@@ -118,6 +118,7 @@ Recent studies have started investigating techniques to augment the grounding ca
 
 ## 2026
 - [ECCV'26] [Parallelized Autoregressive Decoding for Omni-Modal Dense Video Captioning](https://arxiv.org/pdf/2607.02963) [[code](https://github.com/showlab/PadCaptioner)]
+- [arXiv] [Grounding with Confidence: Controllable Generative Video Temporal Grounding](https://arxiv.org/abs/2609.39883). [[code](https://github.com/Alibaba-VELLDEPTH/Grounding-with-Confidence)]
 
 # 4 Traditional TVG
 ## 2017
